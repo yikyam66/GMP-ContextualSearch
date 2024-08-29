@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Search with Contextual Results</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PlaceInsight | Contextual Search</h1>
+        <div class="content">
+            <div id="map-container">
+                <div id="map"></div>
+            </div>
+            <div id="search-results-container">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Enter a place or address">
+                    <button id="search-button">Search</button>
+                </div>
+                <div id="results-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&libraries=places"></script>
+    <script src="script.js"></script>
+</body>
+</html>
